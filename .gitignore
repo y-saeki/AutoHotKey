@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/windows,autohotkey
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,autohotkey
+# Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,autohotkey
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,autohotkey
 
 ### Autohotkey ###
 # Windows image file caches
@@ -50,6 +50,25 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db:encryptable
@@ -68,4 +87,4 @@ ehthumbs_vista.db
 
 # Windows shortcuts
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,autohotkey
+# End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,autohotkey
